@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+}
+/*static, absolute, relative, fixed, //left, right, top, bottom*/
+.box1 {
+    background-color: yellow;
+    position: relative;
+}
+
+.box2 {
+    background-color: orange;
+}
+.box3 {
+    background-color: magenta;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+.box4 {
+    background-color: red;
+}
+
+.small-box {
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
